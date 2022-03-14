@@ -20,8 +20,7 @@ body {
 
 .box {
   width: 327px;
-  /* height: 500px; */
-  padding: 49px;
+  padding: 60px 49px;
   border-radius: 8px;
 }
 
@@ -83,9 +82,30 @@ body {
   color: #004140;
 }
 
-/* @media screen and {
-    
+@media only screen and (min-width: 1440px) {
+  main {
+    display: flex;
+  }
+
+  .box {
+    width: 307px;
+  }
+
+  .sedans a:hover {
+    color: white;
+    background-color: #e28625;
+    border: 2px solid white;
+  }
+
+  .suvs a:hover {
+    color: white;
+    background-color: #006971;
+    border: 2px solid white;
+  }
+
+  .luxury a:hover {
+    color: white;
+    background-color: #004140;
+    border: 2px solid white;
+  }
 }
-main {
-  display: flex;
-} */
