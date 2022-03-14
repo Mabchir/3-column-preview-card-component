@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@100;200;400&display=swap");
 
 :root {
   --fontLex: "Lexend Deca", sans-serif;
@@ -10,3 +10,82 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 327px;
+  /* height: 500px; */
+  padding: 49px;
+  border-radius: 8px;
+}
+
+.box img {
+  width: 64px;
+  height: 40px;
+}
+.box h1 {
+  font-family: var(--fontBig);
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 35px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.box p {
+  font-family: var(--fontLex);
+  font-weight: 200;
+  margin: 25px 0px 50px 0px;
+  line-height: 1.563rem;
+  color: white;
+}
+
+.box a {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  font-family: var(--fontLex);
+  font-weight: 200;
+  text-decoration: none;
+
+  border-radius: 25px;
+  padding: 11px 31px;
+  background-color: #f2f2f2;
+}
+
+.sedans {
+  background-color: #e28625;
+}
+
+.suvs {
+  background-color: #006971;
+}
+
+.luxury {
+  background-color: #004140;
+}
+
+.sedans a {
+  color: #e28625;
+}
+
+.suvs a {
+  color: #006971;
+}
+
+.luxury a {
+  color: #004140;
+}
+
+/* @media screen and {
+    
+}
+main {
+  display: flex;
+} */
