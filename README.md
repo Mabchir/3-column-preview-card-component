@@ -26,8 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+- Desktop
+  ![](./images/Descktop.png)
+- Mobile
+  ![](./images/Mobile.png)
 
 ### Links
 
