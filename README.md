@@ -29,6 +29,7 @@ Users should be able to:
 - Desktop
   ![](./images/Descktop.png)
 - Mobile
+
   ![](./images/Mobile.png)
 
 ### Links
